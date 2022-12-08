@@ -17,7 +17,7 @@ const AdvancedForm: React.FC<{}> = () => {
       username: Yup.string()
         .max(15, "Must be 15 characters or less")
         .min(3, "Must be at least 3 characters")
-        .required("Required"),
+        .required("Please enter your username"),
       jobType: Yup.string()
         .oneOf(
           ["developer", "designer", "product", "other"],
