@@ -77,7 +77,7 @@ const AdvancedForm: React.FC<{}> = () => {
         />
       </div>
       <button
-        className="h-12 w-full bg-blue-500 text-white rounded-lg"
+        className="h-12 w-full bg-blue-500 text-white rounded-lg disabled:hover:bg-blue-300"
         type="submit"
         disabled={isValid}
       >
